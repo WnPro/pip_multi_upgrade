@@ -6,9 +6,9 @@
 
 无论在Windows还是linux上应该都是可以用的。python3.7 以上版本都没有问题，使用中保持pip可以正常连接服务器就好。
 
-直接在工作目录下 `$ python3 pip_auto_upgrade.py` 或者 `python pip_auto_upgrade.py` 就好了。
+直接在工作目录下 `$ python3 pipupgrade.py` 或者 `python pipupgrade.py` 就好了。
 
-可以接受 `--help` 选项显示适用方法。
+可以接受 `--help` 选项显示使用方法。
 
 ## Errorlog.txt
 
