@@ -16,7 +16,6 @@ _FENC = 'gbk' if (sys.platform.startswith('win32')) else 'utf-8'
 _PIPCOMMAND = ["pip", "install", "-U"]
 _PYEXEC = [sys.executable, '-m']
 
-print('这是一个很强的小程序。。。')
 
 def _write_log(name, log):
     ''' 向Errorlog.txt 写入日志 '''
@@ -86,5 +85,3 @@ def mtupgrade():
     print("Or something goes wrong with the network,")
     print("please check Errorlog.txt.")
     return 0
-
-
